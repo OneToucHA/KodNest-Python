@@ -1,0 +1,25 @@
+def student_details(name, roll_no):
+    print("\n----- Student Details -----")
+    print("Student Name:", name)
+    print("Roll Number:", roll_no)
+
+
+def calculate_total(a1, a2, a3):
+    total = a1 + a2 + a3
+    return total
+
+
+def calculate_average(total):
+    average = total / 3
+    return average
+
+
+def get_result(average):
+    if average >= 40:
+        return "Pass"
+    else:
+        return "Fail"
+
+name=input("Enter Student Name: ")
+roll_no=input("Enter Roll Number:")
+
